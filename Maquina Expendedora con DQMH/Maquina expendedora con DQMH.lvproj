@@ -11,11 +11,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
-			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
+			<Item Name="Messages.lvlib" Type="Library" URL="../Libraries/Mensajes/Messages.lvlib"/>
+			<Item Name="Products.lvlib" Type="Library" URL="../Libraries/Products/Products.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
+			<Item Name="Test Products API.vi" Type="VI" URL="../Libraries/Products/Test Products API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -74,6 +76,7 @@
 				<Item Name="Wait at Rendezvous.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/Wait at Rendezvous.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
