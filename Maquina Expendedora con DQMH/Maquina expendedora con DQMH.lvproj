@@ -11,11 +11,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Modules" Type="Folder">
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Libraries/Configuration/Configuration.lvlib"/>
 			<Item Name="Messages.lvlib" Type="Library" URL="../Libraries/Mensajes/Messages.lvlib"/>
 			<Item Name="Products.lvlib" Type="Library" URL="../Libraries/Products/Products.lvlib"/>
 			<Item Name="UI.lvlib" Type="Library" URL="../Libraries/UI/UI.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Configuration API.vi" Type="VI" URL="../Libraries/Configuration/Test Configuration API.vi"/>
 			<Item Name="Test Mensajes API.vi" Type="VI" URL="../Libraries/Mensajes/Test Mensajes API.vi"/>
 			<Item Name="Test Products API.vi" Type="VI" URL="../Libraries/Products/Test Products API.vi"/>
 			<Item Name="Test UI API.vi" Type="VI" URL="../Libraries/UI/Test UI API.vi"/>
