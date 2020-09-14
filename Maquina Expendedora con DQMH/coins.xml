@@ -9,11 +9,11 @@
 <NumElts>2</NumElts>
 <String>
 <Name>Bolean text</Name>
-<Val>1 eurito</Val>
+<Val>100 Sharkitox</Val>
 </String>
 <I32>
 <Name>Value</Name>
-<Val>1</Val>
+<Val>100</Val>
 </I32>
 </Cluster>
 <Cluster>
@@ -21,7 +21,7 @@
 <NumElts>2</NumElts>
 <String>
 <Name>Bolean text</Name>
-<Val>2 eurito</Val>
+<Val>2 Sharkitos</Val>
 </String>
 <I32>
 <Name>Value</Name>
@@ -33,7 +33,19 @@
 <NumElts>2</NumElts>
 <String>
 <Name>Bolean text</Name>
-<Val>5 pesitos</Val>
+<Val>8 Sharkitos</Val>
+</String>
+<I32>
+<Name>Value</Name>
+<Val>8</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Coins</Name>
+<NumElts>2</NumElts>
+<String>
+<Name>Bolean text</Name>
+<Val>6 Sharkitos</Val>
 </String>
 <I32>
 <Name>Value</Name>
@@ -45,23 +57,11 @@
 <NumElts>2</NumElts>
 <String>
 <Name>Bolean text</Name>
-<Val>10 pesitos</Val>
+<Val>5 Sharkitos</Val>
 </String>
 <I32>
 <Name>Value</Name>
-<Val>11</Val>
-</I32>
-</Cluster>
-<Cluster>
-<Name>Coins</Name>
-<NumElts>2</NumElts>
-<String>
-<Name>Bolean text</Name>
-<Val>20 pesitos</Val>
-</String>
-<I32>
-<Name>Value</Name>
-<Val>22</Val>
+<Val>5</Val>
 </I32>
 </Cluster>
 </Array>
