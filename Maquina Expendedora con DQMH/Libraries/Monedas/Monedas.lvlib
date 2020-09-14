@@ -18,8 +18,9 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Actualizar Credito Argument--cluster.ctl" Type="VI" URL="../Actualizar Credito Argument--cluster.ctl"/>
-				<Item Name="Actualizar Credito (Reply Payload)--cluster.ctl" Type="VI" URL="../Actualizar Credito (Reply Payload)--cluster.ctl"/>
+				<Item Name="Coin pressed Argument--cluster.ctl" Type="VI" URL="../Coin pressed Argument--cluster.ctl"/>
+				<Item Name="Coin pressed (Reply Payload)--cluster.ctl" Type="VI" URL="../Coin pressed (Reply Payload)--cluster.ctl"/>
+				<Item Name="Set Coins Values Argument--cluster.ctl" Type="VI" URL="../Set Coins Values Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,7 +34,8 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
-			<Item Name="Actualizar Credito.vi" Type="VI" URL="../Actualizar Credito.vi"/>
+			<Item Name="Coin pressed.vi" Type="VI" URL="../Coin pressed.vi"/>
+			<Item Name="Set Coins Values.vi" Type="VI" URL="../Set Coins Values.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -85,4 +87,6 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Read Coins Config.vi" Type="VI" URL="../Read Coins Config.vi"/>
+	<Item Name="Save Configuration Coins.vi" Type="VI" URL="../Save Configuration Coins.vi"/>
 </Library>
