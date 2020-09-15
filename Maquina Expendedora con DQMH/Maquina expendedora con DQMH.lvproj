@@ -101,8 +101,6 @@
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
 			</Item>
 			<Item Name="Mensajes.lvlib" Type="Library" URL="../Libraries/Mensajes/Mensajes.lvlib"/>
-			<Item Name="Request_Credit (Reply Payload)--cluster.ctl" Type="VI" URL="../Libraries/Monedas/Request_Credit (Reply Payload)--cluster.ctl"/>
-			<Item Name="Request_Credit Argument--cluster.ctl" Type="VI" URL="../Libraries/Monedas/Request_Credit Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
