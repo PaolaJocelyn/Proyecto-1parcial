@@ -23,6 +23,7 @@
 				<Item Name="Set Coins Values Argument--cluster.ctl" Type="VI" URL="../Set Coins Values Argument--cluster.ctl"/>
 				<Item Name="Request_Crédito Argument--cluster.ctl" Type="VI" URL="../Request_Crédito Argument--cluster.ctl"/>
 				<Item Name="Request_Crédito (Reply Payload)--cluster.ctl" Type="VI" URL="../Request_Crédito (Reply Payload)--cluster.ctl"/>
+				<Item Name="Reset Crédito Argument--cluster.ctl" Type="VI" URL="../Reset Crédito Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -39,6 +40,7 @@
 			<Item Name="Coin pressed.vi" Type="VI" URL="../Coin pressed.vi"/>
 			<Item Name="Set Coins Values.vi" Type="VI" URL="../Set Coins Values.vi"/>
 			<Item Name="Request_Crédito.vi" Type="VI" URL="../Request_Crédito.vi"/>
+			<Item Name="Reset Crédito.vi" Type="VI" URL="../Reset Crédito.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
